@@ -43,7 +43,7 @@ function head() { ?>
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title"><a class="white" href=""><b>&nbsp;Jim</b>Orr<small>.info</small></a></h1>
+                <h1 class="title"><a class="white" href="/"><b>&nbsp;Jim</b>Orr<small>.info</small></a></h1>
                 
                 <nav>
                     <ul>
@@ -118,17 +118,6 @@ $(function() {
 			  </div><!-- /.modal-dialog -->
 			</div><!-- /.modal -->
 			
-                    <h1>
-                      <span class="label label-info black">
-                        <i class="fa fa-linux fa-lg"></i>
-                        <i class="fa fa-apple fa-lg"></i>
-                        <i class="fa fa-git fa-lg"></i>
-                        <i class="fa fa-html5 fa-lg"></i>
-                        <i class="fa fa-css3 fa-lg"></i>
-                        <i class="fa fa-stack-overflow fa-lg"></i>
-                        <i class="fa fa-thumbs-o-up fa-lg"></i>
-                      </span>
-                    </h1>
                 </aside>
 
 <? }

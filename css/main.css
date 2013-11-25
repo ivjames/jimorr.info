@@ -234,6 +234,7 @@ body {
     INTERMEDIATE: Menu
    ==================== */
 
+
     nav a {
         float: right;
         width: 27%;
@@ -288,6 +289,21 @@ body {
            -moz-box-shadow: 0 5px 10px rgba(0,0,0,.5);
                 box-shadow: 0 5px 10px rgba(0,0,0,.5);
     }
+
+    .header-container {
+        position:fixed;
+        z-index: 100;
+        width: 100%;
+	margin: 0 auto;
+        height: 70px;
+    }
+
+    .main-container,
+    .footer-container {
+        position:relative;
+        top: 60px;
+    }
+
 
 /* ============
     WIDE: Menu
