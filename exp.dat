@@ -1,0 +1,55 @@
+<?php
+
+$exp[0][date] = "04/2010 - 11/2013";
+$exp[0][loc] = "4over Inc.";
+$exp[0][city] = "Glendale, CA";
+$exp[0][pos] = "Developer";
+$exp[0][desc] = "My attentions were mainly focused on maintaining and supporting the legacy flagship ecommerce software and proprietary development platform, and later developing and implementing plans to rearchitect the system from the ground up using newer, more modular design principles and technologies. Duties spanned both front and back end, with a strong focus on front end in the latter part of my term there.";
+
+$exp[1][date] = "06/2010 - 03/2011";
+$exp[1][loc] = "Warp2Biz";
+$exp[1][city] = "Pasadena, CA";
+$exp[1][pos] = "Developer";
+$exp[1][desc] = "My primary part-time duties were to adapt existing tools and develop new tools per the owner's direction. Tools include detailed project management, task-list generation, intranet communications/notifications, and plans to closely integrate the office network file systems with the web server's file system.";
+
+$exp[2][date] = "06/2006 - 02/2010";
+$exp[2][loc] = "The Dohring Company/MarketSurveys.com";
+$exp[2][city] = "Glendale, CA";
+$exp[2][pos] = "Lead Developer";
+$exp[2][desc] = "I directed the development team in creating web-based systems and solutions to manage the production needs of the sales team, in addition to directly supporting production needs as needed.  I also processed and handled all video and graphic content required for research, and redesigned the primary web sites for the company.";
+
+$exp[3][date] = "11/2005 - 06/2010";
+$exp[3][loc] = "Buena Vista Pictures Special Events";
+$exp[3][city] = "Burbank, CA";
+$exp[3][pos] = "Art Department Assistant";
+$exp[3][desc] = "I assisted with graphics for many of the movie premiere events produced by BVSE. Projects included: prepping/mounting large format prints for scenery/props, designing store window display presentations, themed signage for special events, kid's crafts and activities for special events, movie poster design/adaptations, and prop construction/painting.";
+
+$exp[4][date] = "10/2002 - Present";
+$exp[4][loc] = "JessaOrr.com";
+$exp[4][city] = "Upland, CA";
+$exp[4][pos] = "Associate Designer";
+$exp[4][desc] = "I worked with my wife Jessa to create set designs for various theatres in Southern California. My responsibilities include design input, 3-D model construction rendering, animation, painting, welding, and light construction.";
+
+$exp[5][date] = "10/2002 - 06/2006";
+$exp[5][loc] = "OrrWeb.net";
+$exp[5][city] = "Upland, CA";
+$exp[5][pos] = "Owner";
+$exp[5][desc] = "OrrWeb.net was my web site through which I advertised my skills as a freelance web developer. I designed and built web sites for small to medium sized businesses, as well as personal web sites. I often automated certain features and make administration simple enough for the site owners to maintain the content themselves. Now forwards to JimOrr.info.";
+
+$exp[6][date] = "9/2000 - 9/2002";
+$exp[6][loc] = "Visual Perspectives Internet";
+$exp[6][city] = "Laguna Hills, CA";
+$exp[6][pos] = "Senior Programmer";
+$exp[6][desc] = "I worked with a team to develop various dynamic solutions for websites, including dynamic Flash, Javascript and HTML content, database driven online catalogues and search engines, and other specialized site features for both public and private use. My primary responsibilities included maintenance and development of the proprietary flagship e-commerce package, helping it to evolve with the changing needs of clients, and assisting the sysadmin with tech support and his related duties.";
+
+$exp[7][date] = "2/2000 - 9/2000";
+$exp[7][loc] = "Pacific Security Systems Inc.";
+$exp[7][city] = "Bellflower, CA";
+$exp[7][pos] = "Security Officer/Systems Administrator";
+$exp[7][desc] = "While my primary position was Security Officer, I also helped to manage and shape the network system in the central office and implement new secure technologies to aid the administrative and supervisory staffs' computer-related duties. I managed the firewall/routing, mail server, and local file server from a Linux server, and helped to install and manage a telephone-timeclock system linked over the network to accounting computers.";
+
+$exp[8][date] = "9/1997 - 2/2000";
+$exp[8][loc] = "ACS Computer Systems Inc.";
+$exp[8][city] = "Montclair, CA";
+$exp[8][pos] = "Support Technician";
+$exp[8][desc] = "My primary responsibilities included building custom computer systems, hardware/software diagnosis and repair, and on-site network installation and repair.";

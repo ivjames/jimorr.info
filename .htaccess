@@ -1,0 +1,5 @@
+DirectoryIndex index.php
+RewriteEngine On   
+RewriteRule    ^contact*$    contact.php    [NC,L] 
+RewriteRule    ^refs*$    refs.php    [NC,L] 
+RewriteRule    ^links*$    links.php    [NC,L] 

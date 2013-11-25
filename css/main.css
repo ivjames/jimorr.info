@@ -13,16 +13,16 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: url(/img/furley_bg.png);
+    background: #97AFC9;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #495B6F;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #495B6F;
     text-shadow: none;
 }
 
@@ -30,7 +30,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid rgba(0,0,0,.5);
     margin: 1em 0;
     padding: 0;
 }
@@ -62,7 +62,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 14px/20px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -76,18 +76,18 @@ body {
 
 .footer-container,
 .header-container {
-    border-bottom: 4px solid #264de4;
+    border-bottom: 4px solid #1A3C60;
 }
 
 .footer-container,
 .main aside {
-    border-top: 4px solid #264de4;
+    border-top: 4px solid #1A3C60;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #2965f1 url(/img/paperblue.png);
+    background: #507194;
 }
 
 .title {
@@ -113,7 +113,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #264de4 url(/img/paperblue2.png);
+    background: #1A3C60;
 }
 
 nav a:hover,
@@ -159,20 +159,66 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-.exp {
-    border-bottom: 1px solid #264de4;
-    margin: auto auto 1em auto;
-    padding: 0 20px 10px 0;
+body {
+
+background: #cfe7fa; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NmZTdmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2MzkzYzEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-8 */
+
+
 }
 
-.exp p {
-    margin: 0;
+abbr {
+	border: 0;
+	text-decoration: none;
 }
 
 .white { color: white; }
 .black { color: black; }
 
+.card {
+  position: relative;
+  float: left;
+  margin: 10px 0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: #B9CEE4;
+  -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+}
 
+.card p {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*GROW*/
+.grow > .card {
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.grow > .card:hover {
+  background: #c9e6ff;
+  -webkit-box-shadow: 5px 5px 9px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 9px rgba(0,0,0,0.2);
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  transform: scale(1.05,1.05);
+}
 
 
 
@@ -224,9 +270,9 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.5);
+           -moz-box-shadow: 0 5px 10px rgba(0,0,0,.5);
+                box-shadow: 0 5px 10px rgba(0,0,0,.5);
     }
 
 /* ============
