@@ -102,17 +102,17 @@ $(function() {
                      </p>
                     
                     <h3 class="white"><i class="fa fa-road"></i> <b>Commute Range</b></h3>
-                    <img src="img/commuterange.png" alt="Map of maximum desired commute range" class="img-responsive" onClick="$('#myModal').modal('toggle')" />
+                    <img src="img/DesirableCommuteRange.jpg" alt="Map of maximum desired commute range" class="img-responsive" onClick="$('#myModal').modal('toggle')" />
                     <!-- Modal -->
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			  <div class="modal-dialog">
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			        <h4 class="modal-title" id="myModalLabel">Maximum desired commute range</h4>
+			        <h4 class="modal-title" id="myModalLabel">Desired Commute Range</h4>
 			      </div>
 			      <div class="modal-body">
-	                        <img src="img/commuterange.png" alt="Map of maximum desired commute range" class="img-responsive" />
+	                        <img src="img/DesirableCommuteRange.jpg" alt="Map of maximum desired commute range" class="img-responsive" />
 			      </div>
 			    </div><!-- /.modal-content -->
 			  </div><!-- /.modal-dialog -->
