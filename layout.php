@@ -43,9 +43,9 @@ function head() { ?>
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title pull-left"><a class="white" href=""><b>&nbsp;Jim</b>Orr<small>.info</small></a></h1>
+                <h1 class="title"><a class="white" href=""><b>&nbsp;Jim</b>Orr<small>.info</small></a></h1>
                 
-                <nav class="text-right">
+                <nav>
                     <ul>
                         <li><a href="contact">Contact</a></li>
                         <li><a href="refs">References</a></li>
@@ -108,7 +108,7 @@ $(function() {
 			  <div class="modal-dialog">
 			    <div class="modal-content">
 			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close &times;</button>
+			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			        <h4 class="modal-title" id="myModalLabel">Maximum desired commute range</h4>
 			      </div>
 			      <div class="modal-body">
