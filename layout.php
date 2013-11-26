@@ -47,7 +47,6 @@ function head() { ?>
                 
                 <nav>
                     <ul>
-                        <li><a href="contact">Contact</a></li>
                         <li><a href="refs">References</a></li>
                         <li><a href="links">Links</a></li>
                     </ul>
@@ -97,9 +96,18 @@ $(function() {
 });
 </script>
                 <aside class="text-center">
+                <h3 class="white"><i class="fa fa-envelope"></i> <b>Contact</b></h3>
+                <ul class="list-unstyled">
+                <li><a class="white" href="mailto:jim@jimorr.info">jim@jimorr.info</a></li>
+                <li>909.851.2915</li>
+                <li>Baldwin Park, CA</li>
+                </ul>
+<hr />
                     <h3 class="white"><i class="fa fa-code"></i> <b>Skill Tags</b></h3>
                      <p id="skillTags">
                      </p>
+
+<hr />
                     
                     <h3 class="white"><i class="fa fa-road"></i> <b>Commute Range</b></h3>
                     <img src="img/DesirableCommuteRange.jpg" alt="Map of maximum desired commute range" class="img-responsive" onClick="$('#myModal').modal('toggle')" />
@@ -118,6 +126,7 @@ $(function() {
 			  </div><!-- /.modal-dialog -->
 			</div><!-- /.modal -->
 			
+<hr />
                 </aside>
 
 <? }
