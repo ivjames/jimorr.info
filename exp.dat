@@ -1,10 +1,10 @@
 <?php
 
-$exp[0][date] = "4/10 - 11/13";
+$exp[0][date] = "4/11 - 11/13";
 $exp[0][loc] = "4over Inc.";
 $exp[0][city] = "Glendale, CA";
 $exp[0][pos] = "Developer";
-$exp[0][desc] = "I was mainly focused on maintainence/support of the legacy ecommerce and proprietary development platform, later developing and implementing plans to fully rearchitect the system using newer, more modular design principles and technologies. Duties spanned both front and back end, with a strong focus on front end in the latter part of my term there.";
+$exp[0][desc] = "I was mainly focused on maintenance/support of the legacy ecommerce and proprietary development platform, later developing and implementing plans to fully rearchitect the system using newer, more modular design principles and technologies. Duties spanned both front and back end, with a strong focus on front end in the latter part of my term there.";
 $exp[0][tags] = array("PHP","PostgreSQL","HTML","JS","CSS","JQuery","REST","GIT/CVS","LAMP","Jenkins/CI","Backbone/Underscore","Bootstrap","NodeJS","Yeoman/Grunt/Bower","FabricJS");
 
 $exp[1][date] = "6/10 - 3/11";
