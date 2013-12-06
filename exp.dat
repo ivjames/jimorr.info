@@ -5,18 +5,21 @@ $exp[0][loc] = "4over Inc.";
 $exp[0][city] = "Glendale, CA";
 $exp[0][pos] = "Developer";
 $exp[0][desc] = "I was mainly focused on maintainence/support of the legacy ecommerce and proprietary development platform, later developing and implementing plans to fully rearchitect the system using newer, more modular design principles and technologies. Duties spanned both front and back end, with a strong focus on front end in the latter part of my term there.";
+$exp[0][tags] = array("PHP","PostgreSQL","HTML","JS","CSS","JQuery","REST","GIT/CVS","LAMP","Jenkins/CI","Backbone/Underscore","Bootstrap","NodeJS","Yeoman/Grunt/Bower","FabricJS");
 
 $exp[1][date] = "6/10 - 3/11";
 $exp[1][loc] = "Warp2Biz";
 $exp[1][city] = "Pasadena, CA";
 $exp[1][pos] = "Developer";
 $exp[1][desc] = "My primary duties were to adapt existing tools and develop new tools per the owner's direction. Tools included project management, task-list generation, intranet comm, and integrating the office file systems with the web server's file system.";
+$exp[1][tags] = array("PHP","MySQL","HTML","JS","CSS","JQuery","SVN");
 
 $exp[2][date] = "6/06 - 2/10";
 $exp[2][loc] = "The Dohring Company/MarketSurveys.com";
 $exp[2][city] = "Glendale, CA";
 $exp[2][pos] = "Lead Developer";
 $exp[2][desc] = "I directed the dev team in creating web-based solutions to manage the needs of the sales team, and directly supporting production needs on-the-fly. I also processed and handled all video and graphic content required for research, and redesigned the corporate and sales web sites.";
+$exp[2][tags] = array("PHP","MySQL","HTML","JS","CSS","JQuery","LAMP");
 
 /*
 $exp[3][date] = "11/05 - 6/10";
@@ -37,13 +40,16 @@ $exp[5][loc] = "OrrWeb.net";
 $exp[5][city] = "Upland, CA";
 $exp[5][pos] = "Owner";
 $exp[5][desc] = "OrrWeb.net was my site where I worked as a freelance web developer, designing and building small/medium businesses sites and personal sites. Services included: custom design, CMS tools, DB design, and hosting/management. Now forwards to JimOrr.info.";
+$exp[5][tags] = array("PHP","MySQL","HTML","JS","CSS","LAMP");
 
 $exp[6][date] = "9/00 - 9/02";
 $exp[6][loc] = "Visual Perspectives Internet";
 $exp[6][city] = "Laguna Hills, CA";
 $exp[6][pos] = "Senior Programmer";
 $exp[6][desc] = "I worked on various websites, providing dynamic Flash, Javascript and HTML content, DB-driven catalogues and search engines, and other custom features for both public and private use. Other responsibilities included maintenance and development of their proprietary e-commerce package, and assisting the sysadmin as needed.";
+$exp[6][tags] = array("PHP","MySQL","HTML","JS","CSS","LAMP");
 
+/*
 $exp[7][date] = "2/00 - 9/00";
 $exp[7][loc] = "Pacific Security Systems Inc.";
 $exp[7][city] = "Bellflower, CA";
@@ -55,3 +61,4 @@ $exp[8][loc] = "ACS Computer Systems Inc.";
 $exp[8][city] = "Montclair, CA";
 $exp[8][pos] = "Support Technician";
 $exp[8][desc] = "My primary responsibilities included building custom computer systems, hardware/software diagnosis and repair, and on-site network installation and repair.";
+*/

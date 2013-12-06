@@ -31,6 +31,12 @@ foreach($exp as $k=>$v) {
 <p>
 <?php echo $v[desc]; ?>
 </p>
+<hr />
+<ul class="list-inline text-center">
+<?php foreach($v[tags] as $tag) { ?>
+<li><?php echo $tag; ?></li>
+<?php } ?>
+</ul>
 </div>
 <?php } ?>
 </div>
